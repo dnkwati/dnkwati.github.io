@@ -19,7 +19,7 @@
   }
 
   a:hover {
-    box-shadow: 4px 6px 10px 0 rgba(0,0,0,0.2);
+    box-shadow: 4px 6px 10px 0 rgba(0, 0, 0, 0.2);
   }
 }
 
@@ -47,7 +47,7 @@
   }
 
   &::before,
-  &::after, {
+  &::after {
     content: '';
     display: block;
     position: absolute;
