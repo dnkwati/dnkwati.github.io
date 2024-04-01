@@ -1,0 +1,22 @@
+// @import "https://unpkg.com/open-props/animations.min.css";
+// @import "https://unpkg.com/open-props/easings.min.css";
+
+.btn {
+  /*  
+    using `reverse` means we dont have to put 
+    opacity: 0 or scale(.8) anywhere  
+  */
+  animation: var(--animation-scale-down) reverse, var(--animation-fade-out) reverse;
+  animation-timing-function: var(--ease-squish-5);
+  animation-duration: 1s;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  background: #e37;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 4px;
+}

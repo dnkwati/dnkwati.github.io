@@ -1,5 +1,9 @@
 <footer class="footer clear-header--left">
-  <div class="footer__note">&copy; 2024</div>
+  <div
+    class="footer__note"
+    id="copyright">
+    &copy;
+  </div>
   <div class="footer__note">
     <a
       href="https://github.com/drnkwati"
@@ -12,3 +16,9 @@
     <br /><br />
   </div>
 </footer>
+
+<script>
+  (function () {
+    document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()));
+  })();
+</script>
