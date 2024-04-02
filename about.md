@@ -17,9 +17,6 @@ layout: page
         Having an in depth understanding of the life cycle of software application development and implementation, I am capable of taking projects from concept to completion.
       </p>
     </div>
-  </div>
-  <br/>
-  <div class="card">
     <h1 class="card__title article_title">🧘‍♂️ Hobbies</h1>
     <div class="article__content">
       <p>
@@ -40,9 +37,6 @@ layout: page
         </li>
       </ul>
     </div>
-  </div>
-  <br/>
-  <div class="card">
     <h1 class="card__title article_title">⭐️ Strengths</h1>
     <div class="article__content">
       <p>
@@ -64,4 +58,6 @@ layout: page
       </p>
     </div>
   </div>
+  <br/>
+  <!-- <div class="card"> </div> -->
 </div>
