@@ -19,10 +19,16 @@ layout: page
       </a>
     </p>
   </div>
-  <p><br /></p>
+  <p></p>
   <a
     href="mailto:drnkwati+web@gmail.com"
     title="Leave a message">
     <span class="material-symbols-outlined font48 fg-gray"> mail </span>
   </a>
+  <div class="article__content">
+    <p>
+      Do you wish to find out what I am currently working on?
+    </p>
+    {% include links2social4git.md %}
+  </div>
 </section>

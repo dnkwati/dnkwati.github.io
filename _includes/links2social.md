@@ -1,4 +1,4 @@
-<ul class="social-set">
+<ul class="links2social">
 	<li>
 		<a
 			class="sociali"

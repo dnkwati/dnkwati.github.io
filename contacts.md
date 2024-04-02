@@ -11,11 +11,5 @@ layout: page
         </p>
         {% include links2social.md %}
     </div>
-    <div class="article__content">
-        <p class="text-center">
-          Do you wish to find out what I am currently working on?
-        </p>
-        {% include links2social4git.md %}
-    </div>
   </div>
 </div>
