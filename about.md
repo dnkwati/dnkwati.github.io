@@ -4,14 +4,54 @@ layout: page
 
 <div class="post">
   <div class="card">
-    <h1 class="card__title article_title">Who I am?</h1>
-
+    <h1 class="card__title article_title">🤔 Who I am?</h1>
     <div class="article__content">
       <p>
-        My name is Divine. I'm a full-stack developer based in Samara, RU. During the day I work as a lead developer at a local agency and in the
-        evening I work on freelance projects and utilize the time to built my own products. I spent my leisure hours playing the saxophone. Right now
-        I'm focused on automation and continues improvement. I love to learn and explore new arenas.
+        Full Stack Software Architect with over 12 years of experience. Extensive knowledge in building software for various platforms and operating systems. Demonstrated ability to build, maintain and manage software from start to finish using DevOps automation tools.
       </p>
+    </div>
+  </div>
+  <div class="card">
+    <h1 class="card__title article_title">🧑‍💻 What I do</h1>
+    <div class="article__content">
+      <p>
+        I take responsibility for designing and executing software solutions as per a company’s or client’s specific briefs.
+        Having an in depth understanding of the life cycle of software application development and implementation, I am capable of taking projects from concept to completion.
+      </p>
+    </div>
+  </div>
+  <div class="card">
+    <h1 class="card__title article_title">⭐️ Strengths</h1>
+    <div class="article__content">
+      <p>
+        I'm very practical about solving unexpected issues, taking charge whenever expected while adapting to change and new situations.
+        - Problem Solver
+        - Take charge person 
+        - Adaptable
+        - Fast Learner
+      </p>
+    </div>
+  </div>
+  <div class="card">
+    <h1 class="card__title article_title">🧘‍♂️ Hobbies</h1>
+    <div class="article__content">
+      <p>
+        Listening to music is a fun and rewarding hobby that stimulates my creativity and improves my mood. Among other genres, I have a unique taste for pop Jazz. Some of my interest include:
+      </p>
+      <ul>
+        <li>
+          Creative arts, including writing, music and crafts
+        </li>
+        <li>
+          Volunteering, community service or charity work
+        </li>
+        <li>
+          Travel
+        </li>
+        <li>
+          Cooking or gardening
+        </li>
+      </ul>
     </div>
   </div>
 </div>
