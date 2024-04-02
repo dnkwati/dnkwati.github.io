@@ -18,8 +18,11 @@
     text-align: center;
   }
 
-  a:hover {
-    box-shadow: 4px 6px 10px 0 rgba(0, 0, 0, 0.2);
+  a {
+    transition: $transition-box-shadow;
+    &:hover {
+      box-shadow: 4px 6px 10px 0 rgba(0, 0, 0, 0.2);
+    }
   }
 }
 
