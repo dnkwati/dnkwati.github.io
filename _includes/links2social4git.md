@@ -20,7 +20,7 @@
 			<img
 				height="32"
 				width="32"
-				src="https://github.com/reglue4go.png" />
+				src="https://unpkg.com/simple-icons@11.11.0/icons/go.svg" />
 		</a>
 	</li>
 </ul>
