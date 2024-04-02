@@ -1,0 +1,41 @@
+ul.social-set {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  width: auto;
+
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* Font Awesome icons */
+
+a.sociali {
+  border: 1px solid $button-link-text-color;
+  border-radius: 7px;
+
+  /*   border-radius: 5px 20px 5px; */
+  font-size: 2em;
+  line-height: 1.2em;
+  padding: 10px;
+  background: $base-background-color;
+  color: $link-text-color;
+  margin-right: 10px;
+  margin-bottom: 10px !important;
+
+  /*   padding-bottom: 10px !important; */
+  transition: background 0.3s ease-in-out;
+
+  &:hover,
+  &:focus {
+    background: #f0f0f0;
+  }
+}
