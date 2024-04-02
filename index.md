@@ -2,15 +2,6 @@
 layout: page
 ---
 
-<!-- <link
-  rel="stylesheet"
-  type="text/css"
-  href="https://dnkwati.github.io/assets/css/page.css" />
-<link
-  rel="stylesheet"
-  type="text/css"
-  href="https://unpkg.com/open-props" /> -->
-
 <section class="homepage">
   <div class="article__content">
     <p>
@@ -23,7 +14,7 @@ layout: page
     <p>
       <a
         class=".btn"
-        href="{{ '/about.html' | relative_url }}">
+        href="{{ '/about' | relative_url }}">
         Learn more <span class="material-symbols-outlined font14"> chevron_right </span>
       </a>
     </p>
@@ -31,8 +22,7 @@ layout: page
   <p><br /></p>
   <a
     href="mailto:drnkwati+web@gmail.com"
-    title="Email me">
+    title="Leave a message">
     <span class="material-symbols-outlined font48 fg-gray"> mail </span>
   </a>
-  <!-- end skills -->
 </section>
