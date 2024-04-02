@@ -30,7 +30,7 @@ layout: page
   </div>
   <p><br /></p>
   <a
-    href="mailto:drnkwati@gmail.com"
+    href="mailto:drnkwati+web@gmail.com"
     title="Email me">
     <span class="material-symbols-outlined font48 fg-gray"> mail </span>
   </a>
