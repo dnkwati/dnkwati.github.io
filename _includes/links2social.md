@@ -6,8 +6,8 @@
 			target="_blank"
 			aria-label="telegram">
 			<img
-				height="24"
-				width="40"
+				height="32"
+				width="32"
 				src="https://unpkg.com/simple-icons@11.11.0/icons/telegram.svg" />
 		</a>
 	</li>
@@ -19,8 +19,8 @@
 			target="_blank"
 			aria-label="skype">
 			<img
-				height="24"
-				width="40"
+				height="32"
+				width="32"
 				src="https://unpkg.com/simple-icons@11.11.0/icons/skype.svg" />
 		</a>
 	</li>
@@ -32,9 +32,9 @@
 			title="Send me an email"
 			aria-label="email">
 			<img
-				height="24"
-				width="40"
-				src="https://unpkg.com/simple-icons@11.11.0/icons/maildotru.svg" />
+				height="32"
+				width="32"
+				src="https://unpkg.com/simple-icons@11.11.0/icons/gmail.svg" />
 		</a>
 	</li>
 </ul>

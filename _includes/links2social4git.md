@@ -6,8 +6,8 @@
 			target="_blank"
 			aria-label="GitHub">
 			<img
-				height="24"
-				width="40"
+				height="32"
+				width="32"
 				src="https://unpkg.com/simple-icons@11.11.0/icons/github.svg" />
 		</a>
 	</li>
@@ -18,9 +18,9 @@
 			target="_blank"
 			aria-label="Go">
 			<img
-				height="24"
-				width="40"
-				src="https://unpkg.com/simple-icons@11.11.0/icons/go.svg" />
+				height="32"
+				width="32"
+				src="https://github.com/reglue4go.png" />
 		</a>
 	</li>
 </ul>

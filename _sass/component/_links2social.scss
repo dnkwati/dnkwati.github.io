@@ -19,10 +19,9 @@ ul.social-set {
 /* Font Awesome icons */
 
 a.sociali {
-  border: 1px solid $button-link-text-color;
+  // border: 1px solid $button-link-text-color;
   border-radius: 7px;
-
-  /*   border-radius: 5px 20px 5px; */
+  border-radius: 5px 20px 5px;
   font-size: 2em;
   line-height: 1.2em;
   padding: 10px;
@@ -30,8 +29,7 @@ a.sociali {
   color: $link-text-color;
   margin-right: 10px;
   margin-bottom: 10px !important;
-
-  /*   padding-bottom: 10px !important; */
+  padding-bottom: 10px !important;
   transition: background 0.3s ease-in-out;
 
   &:hover,
