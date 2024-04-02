@@ -10,9 +10,6 @@ layout: page
         Full Stack Software Architect with over 12 years of experience. Extensive knowledge in building software for various platforms and operating systems. Demonstrated ability to develop, maintain and manage software from start to finish using DevOps automation tools.
       </p>
     </div>
-  </div>
-  <br/>
-  <div class="card">
     <h1 class="card__title article_title">🧑‍💻 What I do</h1>
     <div class="article__content">
       <p>
@@ -33,13 +30,13 @@ layout: page
           Creative arts, including writing, music and crafts
         </li>
         <li>
-          Volunteering, community service or charity work
+          Volunteering, community service
         </li>
         <li>
           Travel
         </li>
         <li>
-          Cooking or gardening
+          Cooking
         </li>
       </ul>
     </div>
@@ -52,6 +49,9 @@ layout: page
         I'm very practical about solving unexpected issues, taking charge whenever expected while adapting to change and new situations.
         <ul>
           <li>
+            Fast Learner
+          </li>
+          <li>
             Problem Solver
           </li>
           <li>
@@ -59,9 +59,6 @@ layout: page
           </li>
           <li>
             Adaptable
-          </li>
-          <li>
-            Fast Learner
           </li>
         </ul>
       </p>
