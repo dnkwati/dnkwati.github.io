@@ -11,6 +11,7 @@ layout: page
       </p>
     </div>
   </div>
+  <br/>
   <div class="card">
     <h1 class="card__title article_title">🧑‍💻 What I do</h1>
     <div class="article__content">
@@ -20,6 +21,7 @@ layout: page
       </p>
     </div>
   </div>
+  <br/>
   <div class="card">
     <h1 class="card__title article_title">⭐️ Strengths</h1>
     <div class="article__content">
@@ -32,6 +34,7 @@ layout: page
       </p>
     </div>
   </div>
+  <br/>
   <div class="card">
     <h1 class="card__title article_title">🧘‍♂️ Hobbies</h1>
     <div class="article__content">
