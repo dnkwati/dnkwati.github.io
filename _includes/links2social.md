@@ -3,7 +3,7 @@
 		<a
 			class="sociali"
 			href="https://t.me/DivineNkwati"
-			target="_blank"
+			title="Leave an instant message"
 			aria-label="telegram">
 			<img
 				height="32"
@@ -16,7 +16,7 @@
 		<a
 			class="sociali"
 			href="skype:nkwatidivine?chat"
-			target="_blank"
+			title="Leave an instant message"
 			aria-label="skype">
 			<img
 				height="32"
@@ -28,7 +28,6 @@
 		<a
 			class="sociali"
 			href="mailto:drnkwati+web@gmail.com"
-			target="_blank"
 			title="Send me an email"
 			aria-label="email">
 			<img
