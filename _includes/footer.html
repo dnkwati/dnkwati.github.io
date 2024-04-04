@@ -22,28 +22,30 @@
 
 <script>
   (function () {
-    document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()));
+    document.addEventListener("DOMContentLoaded", function(event) {
+      document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()));
 
-    // chips
-    var chipsChoice = Array.from(document.querySelectorAll('.chips__choice .chip'));
-    chipsChoice.forEach(function(node) {
-      node.on("click", function () {
-        chipsChoice.forEach(function(node) {
-          node.removeClass("chip--active");
+      // chips
+      var chipsChoice = Array.from(document.querySelectorAll('.chips__choice .chip'));
+      chipsChoice.forEach(function(node) {
+        node.on("click", function () {
+          chipsChoice.forEach(function(node) {
+            node.removeClass("chip--active");
+          });
+          node.addClass("chip--active");
         });
-        node.addClass("chip--active");
+      });
+
+      var chipsFilter = Array.from(document.querySelectorAll('.chips__filter .chip'));
+      chipsFilter.forEach(function(node) {
+        node.on("click", function () {
+          chipsFilter.forEach(function(node) {
+            node.removeClass("chip--active");
+          });
+          node.addClass("chip--active");
+        });
       });
     });
-
-    var chipsFilter = Array.from(document.querySelectorAll('.chips__filter .chip'));
-    chipsFilter.forEach(function(node) {
-      node.on("click", function () {
-        chipsFilter.forEach(function(node) {
-          node.removeClass("chip--active");
-        });
-        node.addClass("chip--active");
-      });
-    });
-    // 
+    // DOMContentLoaded
   })();
 </script>

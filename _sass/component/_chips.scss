@@ -30,7 +30,7 @@
 
 .chip {
   padding: 0 12px;
-  background-color: rgb(var($base-background-color));
+  background-color: $base-background-color;
   border-radius: 100px;
   display: inline-flex;
   margin: 4px;
@@ -55,8 +55,8 @@
 }
 .chips__choice {
   .chip.chip--active {
-    color: rgb(var($link-text-color));
-    background-color: rgba(var($link-text-color), 0.2);
+    color: rgb($link-text-color);
+    background-color: rgba($link-text-color, 0.2);
   }
 }
 .chips__filter {
