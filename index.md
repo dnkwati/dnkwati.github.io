@@ -5,7 +5,7 @@ layout: page
 <section class="homepage">
   <div class="article__content">
     <!-- <h1>{{ site.description }} <br> <small> For Hire </small> </h1> -->
-    <h1>{{ site.description }} <br> For Hire </h1>
+    <h1> Full Stack <br> {{ site.description }} <br> For Hire </h1>
     <p>
       I am committed to empowering people <br />
       make their dreams and <br />
