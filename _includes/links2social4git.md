@@ -14,13 +14,12 @@
 	<li>
 		<a
 			class="sociali"
-			href="https://github.com/drnkwati"
-			target="_blank"
-			aria-label="GitHub">
+			href="https://dnkwati.github.io/explore/projects"
+			aria-label="Git Portfolio">
 			<img
 				height="32"
 				width="32"
-				src="https://unpkg.com/simple-icons@11.11.0/icons/github.svg" />
+				src="https://unpkg.com/simple-icons@11.11.0/icons/git.svg" />
 		</a>
 	</li>
 </ul>
