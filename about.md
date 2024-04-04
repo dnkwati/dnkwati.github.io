@@ -4,7 +4,7 @@ layout: page
 
 <div class="post">
   <div class="card">
-    <h1 class="card__title article_title">🤔 Who I am?</h1>
+    <h1 class="card__title article_title">🤔 Who I am</h1>
     <div class="article__content">
       <p>
         My name is Divine Nkwati, I’m a Full Stack Software Architect with over 12 years of experience and extensive knowledge in building software for various platforms and operating systems. I have demonstrated ability to develop, maintain and manage software from start to finish using DevOps automation tools.
@@ -16,19 +16,6 @@ layout: page
         I take responsibility for designing and executing software solutions as per a company’s or client’s specific briefs.
         Having an in depth understanding of the life cycle of software application development and implementation, I am capable of taking projects from concept to completion.
       </p>
-    </div>
-    <h1 class="card__title article_title">🧘‍♂️ Hobbies</h1>
-    <div class="article__content">
-      <p>
-        Listening to music is a fun and rewarding hobby that stimulates my creativity and improves my mood. Among other genres, I have a unique taste for Saxophone Jazz. Some of my interest include:
-      </p>
-      <ul>
-        <li> Meditation </li>
-        <li> Creative arts, including writing, music and crafts </li>
-        <li> Volunteering, community service </li>
-        <li> Travel </li>
-        <li> Cooking </li>
-      </ul>
     </div>
     <h1 class="card__title article_title">⭐️ Strengths</h1>
     <div class="article__content">
@@ -53,6 +40,19 @@ layout: page
         <li> 
           “Success is not final; failure is not fatal: It is the courage to continue that counts.” <strong> – Winston S. Churchill</strong>
         </li>
+      </ul>
+    </div>
+    <h1 class="card__title article_title">🧘‍♂️ Hobbies</h1>
+    <div class="article__content">
+      <p>
+        Listening to music is a fun and rewarding hobby that stimulates my creativity and improves my mood. Among other genres, I have a unique taste for Saxophone Jazz. Some of my interest include:
+      </p>
+      <ul>
+        <li> Meditation </li>
+        <li> Creative arts, including writing, music and crafts </li>
+        <li> Volunteering, community service </li>
+        <li> Travel </li>
+        <li> Cooking </li>
       </ul>
     </div>
   </div>

@@ -4,6 +4,7 @@ layout: page
 
 <section class="homepage">
   <div class="article__content">
+    <h1> {{ site.description }} </h1>
     <p>
       I am committed to empowering people <br />
       make their dreams and <br />
