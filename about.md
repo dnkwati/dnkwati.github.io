@@ -41,6 +41,20 @@ layout: page
         </ul>
       </p>
     </div>
+    <h1 class="card__title article_title">💬 Favourite Quotes</h1>
+    <div class="article__content">
+      <ul>
+        <li> 
+          “The way to get started is to quit talking and begin doing.” – Walt Disney
+        </li>
+        <li> 
+          “Success is not final; failure is not fatal: It is the courage to continue that counts.” – Winston S. Churchill
+        </li>
+        <li> 
+          “The only impossible journey is the one you never begin.” – Tony Robbins
+        </li>
+      </ul>
+    </div>
   </div>
   <!-- <div class="card"> </div> -->
 </div>
