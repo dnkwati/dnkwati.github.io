@@ -3,6 +3,7 @@
 		<a
 			class="sociali"
 			href="https://t.me/DivineNkwati"
+			target="_blank"
 			title="Leave an instant message"
 			aria-label="telegram">
 			<img
