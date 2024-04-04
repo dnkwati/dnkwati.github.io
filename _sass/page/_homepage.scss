@@ -3,7 +3,7 @@
 .homepage {
   font-size: larger;
   text-align: center;
-  margin-top: 2.5rem; // 4.375rem;
+  margin-top: 2rem; // 4.375rem;
 
   @include breakpoint(medium) {
     margin-top: 4rem; // 8rem;

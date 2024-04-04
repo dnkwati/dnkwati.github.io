@@ -1,7 +1,7 @@
 /* dependency: variables, mixins */
 
 .post {
-  margin: 3.75rem 0 2.5rem;
+  margin: 1.75rem 0 2.5rem;
   padding: 0 10px;
 }
 
@@ -17,7 +17,7 @@
 
   p {
     margin: 1.25rem 0;
-    color: $post-base-text-color
+    color: $post-base-text-color;
   }
 
   h1 {
