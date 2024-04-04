@@ -40,59 +40,59 @@
 //   border-radius: 50%;
 // }
 
-// .wrap-chips {
-// }
-// https://codepen.io/DivyaPatel/pen/JjjGBKZ
-//
---primary-color: 17, 64, 92;
-/* primary-color: #ff502f */
---secondary-color: 91, 209, 215;
-/* secondary-color: #5bd1d7 */
---text-color: 0, 77, 97;
-/* text-color: #004d61 */
---gray-light: 224, 224, 224;
-/* gray-light: #e0e0e0;*/
+.wrap-chips {
+  // https://codepen.io/DivyaPatel/pen/JjjGBKZ
+  //
+  --primary-color: 17, 64, 92;
+  /* primary-color: #ff502f */
+  --secondary-color: 91, 209, 215;
+  /* secondary-color: #5bd1d7 */
+  --text-color: 0, 77, 97;
+  /* text-color: #004d61 */
+  --gray-light: 224, 224, 224;
+  /* gray-light: #e0e0e0;*/
 
-.chip {
-  padding: 0 12px;
-  background-color: rgb(var(--gray-light));
-  border-radius: 100px;
-  display: inline-flex;
-  margin: 4px;
-  color: rgba(0, 0, 0, 0.87);
-  align-items: center;
-  height: 32px;
-  font-size: 14px;
-  cursor: pointer;
-  border: none;
-  .icon {
-    font-size: 16px;
-    color: rgba(0, 0, 0, 0.54);
-    width: 20px;
-    text-align: center;
-  }
-  .icon--leadind {
-    margin: 2px 4px 0 -4px;
-  }
-  .icon--trailing {
-    margin: 2px -4px 0 4px;
-  }
-}
-.chips__choice {
-  .chip.chip--active {
-    color: rgb(var(--primary-color));
-    background-color: rgba(var(--primary-color), 0.2);
-  }
-}
-.chips__filter {
   .chip {
-    .chip--check {
-      display: none;
+    padding: 0 12px;
+    background-color: rgb(var(--gray-light));
+    border-radius: 100px;
+    display: inline-flex;
+    margin: 4px;
+    color: rgba(0, 0, 0, 0.87);
+    align-items: center;
+    height: 32px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    .icon {
+      font-size: 16px;
+      color: rgba(0, 0, 0, 0.54);
+      width: 20px;
+      text-align: center;
+    }
+    .icon--leadind {
+      margin: 2px 4px 0 -4px;
+    }
+    .icon--trailing {
+      margin: 2px -4px 0 4px;
     }
   }
-  .chip.chip--active {
-    .chip--check {
-      display: block;
+  .chips__choice {
+    .chip.chip--active {
+      color: rgb(var(--primary-color));
+      background-color: rgba(var(--primary-color), 0.2);
+    }
+  }
+  .chips__filter {
+    .chip {
+      .chip--check {
+        display: none;
+      }
+    }
+    .chip.chip--active {
+      .chip--check {
+        display: block;
+      }
     }
   }
 }
