@@ -7,7 +7,7 @@ layout: page
     <h1 class="card__title article_title">🤔 Who I am?</h1>
     <div class="article__content">
       <p>
-        My name is Divine Nkwati, I’m a Full Stack Software Architect with over 12 years of experience. Extensive knowledge in building software for various platforms and operating systems. Demonstrated ability to develop, maintain and manage software from start to finish using DevOps automation tools.
+        My name is Divine Nkwati, I’m a Full Stack Software Architect with over 12 years of experience and extensive knowledge in building software for various platforms and operating systems. I have demonstrated ability to develop, maintain and manage software from start to finish using DevOps automation tools.
       </p>
     </div>
     <h1 class="card__title article_title">🧑‍💻 What I do</h1>
