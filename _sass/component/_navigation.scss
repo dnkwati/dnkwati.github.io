@@ -40,11 +40,11 @@
   a {
     display: block;
     box-sizing: border-box;
-    background-color: $base-background-color;
+    background-color: $brand-dark-color;
     height: $navigation-item-height;
     padding-left: 0.625rem;
     padding-right: 0.625rem;
-    color: #fff; // $button-link-text-color;
+    color: $brand-white-color; // $button-link-text-color;
     font-size: 0.875rem;
     line-height: $navigation-item-height;
   }
@@ -59,13 +59,13 @@
 
   &::before {
     right: 100%;
-    border-bottom: $navigation-item-height solid $base-background-color;
+    border-bottom: $navigation-item-height solid $brand-dark-color;
     border-left: $navigation-item-tail-width solid transparent;
   }
 
   &::after {
     left: 100%;
-    border-top: $navigation-item-height solid $base-background-color;
+    border-top: $navigation-item-height solid $brand-dark-color;
     border-right: $navigation-item-tail-width solid transparent;
   }
 
