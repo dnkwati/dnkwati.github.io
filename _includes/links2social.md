@@ -2,6 +2,18 @@
 	<li>
 		<a
 			class="sociali"
+			href="mailto:drnkwati+web@gmail.com"
+			title="Send me an email"
+			aria-label="email">
+			<img
+				height="32"
+				width="32"
+				src="https://unpkg.com/simple-icons@11.11.0/icons/gmail.svg" />
+		</a>
+	</li>
+	<li>
+		<a
+			class="sociali"
 			href="https://t.me/DivineNkwati"
 			target="_blank"
 			title="Leave an instant message"
@@ -28,13 +40,14 @@
 	<li>
 		<a
 			class="sociali"
-			href="mailto:drnkwati+web@gmail.com"
-			title="Send me an email"
-			aria-label="email">
+			href="https://instagram.com/nkwatidivine"
+			target="_blank"
+			title="instagram"
+			aria-label="instagram">
 			<img
 				height="32"
 				width="32"
-				src="https://unpkg.com/simple-icons@11.11.0/icons/gmail.svg" />
+				src="https://unpkg.com/simple-icons@11.11.0/icons/instagram.svg" />
 		</a>
 	</li>
 </ul>
