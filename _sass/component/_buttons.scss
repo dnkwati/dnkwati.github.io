@@ -1,22 +1,111 @@
 // @import "https://unpkg.com/open-props/animations.min.css";
 // @import "https://unpkg.com/open-props/easings.min.css";
 
-.btn {
-  /*  
-    using `reverse` means we dont have to put 
-    opacity: 0 or scale(.8) anywhere  
-  */
-  animation: var(--animation-scale-down) reverse, var(--animation-fade-out) reverse;
-  animation-timing-function: var(--ease-squish-5);
-  animation-duration: 1s;
+// .btn {
+//   /*
+//     using `reverse` means we dont have to put
+//     opacity: 0 or scale(.8) anywhere
+//   */
+//   animation: var(--animation-scale-down) reverse, var(--animation-fade-out) reverse;
+//   animation-timing-function: var(--ease-squish-5);
+//   animation-duration: 1s;
+// }
+
+// .btn {
+//   padding: 0.5rem 1rem;
+//   background: #e37;
+//   border: none;
+//   color: #fff;
+//   font-size: 1.5rem;
+//   font-weight: bold;
+//   border-radius: 4px;
+// }
+
+// Hompage Button. learn more
+
+@mixin transition($property: all, $duration: 0.45s, $ease: cubic-bezier(0.65, 0, 0.076, 1)) {
+  transition: $property $duration $ease;
 }
 
-.btn {
-  padding: 0.5rem 1rem;
-  background: #e37;
-  border: none;
-  color: #fff;
-  font-size: 1.5rem;
-  font-weight: bold;
-  border-radius: 4px;
+.button-fancy {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+  &.learn-more {
+    width: 12rem;
+    height: auto;
+    .circle {
+      @include transition(all, 0.45s, cubic-bezier(0.65, 0, 0.076, 1));
+      position: relative;
+      display: block;
+      margin: 0;
+      width: 3rem;
+      height: 3rem;
+      background: #9b9b9b;
+      border-radius: 1.625rem;
+      .icon {
+        @include transition(all, 0.45s, cubic-bezier(0.65, 0, 0.076, 1));
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        background: #fff;
+        &.arrow {
+          @include transition(all, 0.45s, cubic-bezier(0.65, 0, 0.076, 1));
+          left: 0.625rem;
+          width: 1.125rem;
+          height: 0.125rem;
+          background: none;
+          &::before {
+            position: absolute;
+            content: '';
+            top: -0.25rem;
+            right: 0.0625rem;
+            width: 0.625rem;
+            height: 0.625rem;
+            border-top: 0.125rem solid #fff;
+            border-right: 0.125rem solid #fff;
+            transform: rotate(45deg);
+          }
+        }
+      }
+    }
+    .button-text {
+      @include transition(all, 0.45s, cubic-bezier(0.65, 0, 0.076, 1));
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 0.75rem 0;
+      margin: 0 0 0 1.85rem;
+      color: #9b9b9b;
+      font-weight: 700;
+      line-height: 1.6;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+  &:hover {
+    .circle {
+      width: 100%;
+      .icon {
+        &.arrow {
+          background: #fff;
+          transform: translate(1rem, 0);
+        }
+      }
+    }
+    .button-text {
+      color: #fff;
+    }
+  }
 }

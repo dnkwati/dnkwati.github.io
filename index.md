@@ -13,9 +13,13 @@ layout: page
     </p>
     <p>
       <a
-        class=".btn"
+        class="button-fancy"
         href="{{ '/about' | relative_url }}">
-        Learn more <span class="material-symbols-outlined font14"> chevron_right </span>
+        <!-- Learn more <span class="material-symbols-outlined font14"> chevron_right </span> -->
+        <span class="circle" aria-hidden="true">
+          <span class="icon arrow"></span>
+        </span>
+        <span class="button-text">Learn more</span>
       </a>
     </p>
   </div>
