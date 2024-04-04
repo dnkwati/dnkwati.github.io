@@ -1,22 +1,3 @@
-// chips: https://www.w3schools.com/howto/howto_css_contact_chips.asp
-// .chip {
-//   display: inline-block;
-//   padding: 0 25px;
-//   height: 50px;
-//   font-size: 16px;
-//   line-height: 50px;
-//   border-radius: 25px;
-//   background-color: #f1f1f1;
-// }
-
-// .chip img {
-//   float: left;
-//   margin: 0 10px 0 -25px;
-//   height: 50px;
-//   width: 50px;
-//   border-radius: 50%;
-// }
-//
 // https://codepen.io/DivyaPatel/pen/JjjGBKZ
 //
 // --primary-color: 17, 64, 92;
@@ -42,7 +23,9 @@
   border: none;
 
   transition: background-color 0.3s ease-in-out;
-  &:hover {
+  &:hover,
+  &:focus,
+  &:active {
     background-color: #e0e0e0;
   }
 
