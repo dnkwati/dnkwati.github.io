@@ -23,18 +23,11 @@ layout: page
         Listening to music is a fun and rewarding hobby that stimulates my creativity and improves my mood. Among other genres, I have a unique taste for Saxophone Jazz. Some of my interest include:
       </p>
       <ul>
-        <li>
-          Creative arts, including writing, music and crafts
-        </li>
-        <li>
-          Volunteering, community service
-        </li>
-        <li>
-          Travel
-        </li>
-        <li>
-          Cooking
-        </li>
+        <li> Meditation </li>
+        <li> Creative arts, including writing, music and crafts </li>
+        <li> Volunteering, community service </li>
+        <li> Travel </li>
+        <li> Cooking </li>
       </ul>
     </div>
     <h1 class="card__title article_title">⭐️ Strengths</h1>
@@ -42,18 +35,10 @@ layout: page
       <p>
         I'm very practical about solving unexpected issues, taking charge whenever expected while adapting to change and new situations.
         <ul>
-          <li>
-            Fast Learner
-          </li>
-          <li>
-            Problem Solver
-          </li>
-          <li>
-            Take charge person 
-          </li>
-          <li>
-            Adaptable
-          </li>
+          <li> Fast Learner </li>
+          <li> Problem Solver </li>
+          <li> Take charge person  </li>
+          <li> Adaptable </li>
         </ul>
       </p>
     </div>
