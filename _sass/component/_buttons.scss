@@ -49,7 +49,7 @@
       margin: 0;
       width: 3rem;
       height: 3rem;
-      background: $base-background-color;
+      background: $post-date-text-color;
       border-radius: 1.625rem;
       .icon {
         @include transition(all, 0.45s, cubic-bezier(0.65, 0, 0.076, 1));
@@ -87,7 +87,7 @@
       bottom: 0;
       padding: 0.5rem 0;
       margin: 0 0 0 1.85rem;
-      color: $base-background-color;
+      color: $post-date-text-color;
       font-weight: 700;
       line-height: 1.6;
       text-align: center;
