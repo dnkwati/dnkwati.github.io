@@ -20,7 +20,7 @@ layout: page
         <span class="circle" aria-hidden="true">
           <span class="icon arrow"></span>
         </span>
-        <span class="button-text">Learn more</span>
+        <span class="button-text">Who I am?</span>
       </a>
     </p>
   </div>
