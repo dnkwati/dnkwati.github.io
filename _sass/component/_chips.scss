@@ -55,7 +55,7 @@
 }
 .chips__choice {
   .chip.chip--active {
-    color: rgb($link-text-color);
+    color: $link-text-color;
     background-color: rgba($link-text-color, 0.2);
   }
 }
