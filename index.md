@@ -13,7 +13,7 @@ layout: page
     </p>
     <p>
       <a
-        class="button-fancy"
+        class="button-fancy learn-more margin-1-0"
         href="{{ '/about' | relative_url }}">
         <!-- Learn more <span class="material-symbols-outlined font14"> chevron_right </span> -->
         <span class="circle" aria-hidden="true">
@@ -24,11 +24,11 @@ layout: page
     </p>
   </div>
   <p></p>
-  <a
+  <!-- <a
     href="mailto:drnkwati+web@gmail.com"
     title="Leave a message">
     <span class="material-symbols-outlined font48 fg-gray"> mail </span>
-  </a>
+  </a> -->
   <div class="article__content">
     <p>
       Do you wish to find out what I am currently working on?
