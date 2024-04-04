@@ -26,7 +26,7 @@
       document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()));
 
       // chips
-      var chipsChoice = Array.from(document.querySelectorAll('.chips__choice .chip'));
+      var chipsChoice = Array.from(document.querySelectorAll('.chips__choice > .chip'));
       chipsChoice.forEach(function(node) {
         node.on("click", function () {
           chipsChoice.forEach(function(node) {
@@ -36,7 +36,7 @@
         });
       });
 
-      var chipsFilter = Array.from(document.querySelectorAll('.chips__filter .chip'));
+      var chipsFilter = Array.from(document.querySelectorAll('.chips__filter > .chip'));
       chipsFilter.forEach(function(node) {
         node.on("click", function () {
           chipsFilter.forEach(function(node) {
