@@ -3,6 +3,11 @@
   rel="stylesheet" />
 <nav class="navbar">
   <ul>
+    <li class="navbar__item">
+      <a href="{{ '/' | relative_url }}">
+        <span class="material-symbols-outlined font14">home</span>
+      </a>
+    </li>
     <li class="navbar__item"><a href="{{ '/about' | relative_url }}">About</a></li>
     <li class="navbar__item"><a href="{{ '/explore' | relative_url }}">Explore</a></li>
     <li class="navbar__item">
@@ -12,7 +17,6 @@
         <!-- <span>&#64;</span> -->
       </a>
     </li>
-    <!-- <span class="material-symbols-outlined font14">home</span> -->
     <!-- <li class="navbar__item">
       <a href="{{ '/explore/downloads' | relative_url }}">
         <span class="material-symbols-outlined font14"> downloading </span>
