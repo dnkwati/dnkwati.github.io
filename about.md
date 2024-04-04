@@ -35,9 +35,8 @@ layout: page
       <p>
         I'm very practical about solving unexpected issues, taking charge whenever expected while adapting to change and new situations.
         <ul>
+          <li> Take Charge Person  </li>
           <li> Fast Learner </li>
-          <li> Problem Solver </li>
-          <li> Take charge person  </li>
           <li> Adaptable </li>
         </ul>
       </p>
