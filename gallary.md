@@ -3,7 +3,12 @@ layout: page
 ---
 
 <div class="article__content">
-  <h1>Gallary</h1>
+  <h1 class="text-center">YouTube</h1>
+  <!-- <h1 class="text-center">Vimeo</h1> -->
+</div>
+
+<div class="article__content">
+  <h1 class="text-center">Gallary</h1>
   <div class="gallery">
     <div class="gallery__item gallery__item--hor">
       <img src="https://source.unsplash.com/random/500x500" alt="">
@@ -45,9 +50,4 @@ layout: page
       <img src="https://source.unsplash.com/user/atlasior/300x300" alt="">
     </div>
   </div>
-</div>
-
-<div class="article__content">
-  <h1>YouTube</h1>
-  <!-- <h1>Vimeo</h1> -->
 </div>
