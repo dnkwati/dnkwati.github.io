@@ -6,7 +6,7 @@ layout: page
 
 <div class="article__content">
   <h1 class="text-center">Gallary</h1>
-  <div class="gallery" data-photos>
+  <div class="gallery">
     <div class="gallery__item gallery__item--hor">
       <!-- <img src="https://source.unsplash.com/random/500x500" alt=""> -->
       <img alt="hero" 

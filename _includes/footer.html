@@ -29,15 +29,21 @@
       document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()));
 
       // gallery
-      callback = function (node) {
-        BigPicture({
-          el: node,
-          gallery: '.gallery [data-photos]', // opens gallery w/ all three images
-          // gallery: document.querySelectorAll('#image_container .example'),
+      // callback = function (node) {
+      //   BigPicture({
+      //     el: node,
+      //     gallery: '.gallery', // opens gallery w/ all three images
+      //     // gallery: document.querySelectorAll('#image_container .example'),
+      //   });
+      // };
+      Array.from(document.querySelectorAll('.gallery')).forEach(function (parent) {
+        Array.from(parent.querySelectorAll('[data-bp]')).forEach(function (node) {
+          BigPicture({
+            el: node,
+            gallery: parent, // opens gallery w/ all three images
+            // gallery: document.querySelectorAll('#image_container .example'),
+          });
         });
-      };
-      Array.from(document.querySelectorAll('*[data-bp]')).forEach(function (node) {
-        callback(node);
       });
 
       // chips
