@@ -2,6 +2,19 @@
 	<li>
 		<a
 			class="sociali"
+			href="https://pin.it/2u3TWNLYK"
+			target="_blank"
+			title="Pinterest"
+			aria-label="pinterest">
+			<img
+				height="32"
+				width="32"
+				src="https://unpkg.com/simple-icons@11.11.0/icons/pinterest.svg" />
+		</a>
+	</li>
+	<li>
+		<a
+			class="sociali"
 			href="https://instagram.com/nkwatidivine"
 			target="_blank"
 			title="Instagram"
@@ -23,19 +36,6 @@
 				height="32"
 				width="32"
 				src="https://unpkg.com/simple-icons@11.11.0/icons/facebook.svg" />
-		</a>
-	</li>
-	<li>
-		<a
-			class="sociali"
-			href="https://pin.it/2u3TWNLYK"
-			target="_blank"
-			title="Pinterest"
-			aria-label="pinterest">
-			<img
-				height="32"
-				width="32"
-				src="https://unpkg.com/simple-icons@11.11.0/icons/pinterest.svg" />
 		</a>
 	</li>
 </ul>

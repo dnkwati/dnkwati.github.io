@@ -22,6 +22,7 @@ layout: page
       <p>
         I'm very practical about solving unexpected issues, taking charge whenever expected while adapting to change and new situations.
         <ul>
+          <li> Integrity </li>
           <li> Take Charge Person </li>
           <li> Fast Learner </li>
           <li> Adaptable </li>
@@ -50,7 +51,8 @@ layout: page
       <ul>
         <li> Meditation </li>
         <li> Creative arts, including writing, music and crafts </li>
-        <li> Volunteering, community service </li>
+        <li> Volunteering community service </li>
+        <li> Youth empowerment </li>
         <li> Travel </li>
         <li> Cooking </li>
       </ul>

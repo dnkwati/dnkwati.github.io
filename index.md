@@ -7,10 +7,9 @@ layout: page
     <h1> Full Stack <br> {{ site.description }} <br> For Hire </h1>
     <p>
       I am committed to empowering people <br />
-      make their dreams and <br />
-      imaginations a reality <br />
-      by promoting persistence, <br />
-      creativity and teamwork.
+      make their dreams and imaginations <br />
+      a reality by promoting <br />
+      persistence, creativity and teamwork.
     </p>
     <p>
       <a
@@ -25,11 +24,6 @@ layout: page
     </p>
   </div>
   <p></p>
-  <!-- <a
-    href="mailto:drnkwati+web@gmail.com"
-    title="Leave a message">
-    <span class="material-symbols-outlined font48 fg-gray"> mail </span>
-  </a> -->
   <div class="article__content">
     <p>
       Do you wish to find out what I am currently working on?

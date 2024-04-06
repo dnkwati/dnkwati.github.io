@@ -12,7 +12,7 @@ layout: page
   </div>
   <div class="article__content">
     <p>
-      For Companies, Startups and Entrepreneurs, <br/>
+      For companies, startups and employers <br/>
       Send me an offer letter!
     </p>
     {% include links2offering.md %}
