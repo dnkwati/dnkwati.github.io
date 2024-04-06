@@ -6,18 +6,18 @@ layout: page
 
 <div class="article__content">
   <h1 class="text-center">Gallary</h1>
-  <div class="gallery">
+  <div class="gallery" data-photos>
     <div class="gallery__item gallery__item--hor">
       <!-- <img src="https://source.unsplash.com/random/500x500" alt=""> -->
-      <img alt="" 
-        src="{{ '/assets/img/gallery/thumbnails/parkGames_thumb.JPG' | relative_url }}" 
-        data-bp="{{ '/assets/img/gallery/parkGames_thumb.JPG' | relative_url }}">
+      <img alt="hero" 
+        src="{{ '/assets/img/gallery/thumbnails/holdingPhone_thumb.JPG' | relative_url }}" 
+        data-bp="{{ '/assets/img/gallery/holdingPhone_thumb.JPG' | relative_url }}">
     </div>
     <div class="gallery__item">
       <!-- <img src="https://source.unsplash.com/collection/190727/300x300" alt=""> -->
-      <img alt="" 
-        src="{{ '/assets/img/gallery/thumbnails/beachtaliati_thumb.JPG' | relative_url }}" 
-        data-bp="{{ '/assets/img/gallery/beachtaliati_thumb.JPG' | relative_url }}">
+      <img alt="hero" 
+        src="{{ '/assets/img/gallery/thumbnails/samuni_thumb.jpg' | relative_url }}" 
+        data-bp="{{ '/assets/img/gallery/samuni_thumb.jpg' | relative_url }}">
     </div>
     <div class="gallery__item">
       <!-- <img src="https://source.unsplash.com/user/erondu/600x600" alt=""> -->
@@ -28,14 +28,14 @@ layout: page
     <div class="gallery__item gallery__item--vert">
       <!-- <img src="https://source.unsplash.com/user/timmarshall/300x300" alt=""> -->
       <img alt="fun at ashan" 
-        src="{{ '/assets/img/gallery/thumbnails/funAtashan_thumb.JPG' | relative_url }}" 
-        data-bp="{{ '/assets/img/gallery/funAtashan_thumb.JPG' | relative_url }}">
+        src="{{ '/assets/img/gallery/thumbnails/funAtashan_thumb.JPEG' | relative_url }}" 
+        data-bp="{{ '/assets/img/gallery/funAtashan_thumb.JPEG' | relative_url }}">
     </div>
     <div class="gallery__item gallery__item--lg">
       <!-- <img src="https://source.unsplash.com/user/randomlies/300x300" alt=""> -->
-      <img alt="hero" 
-        src="{{ '/assets/img/gallery/thumbnails/holdingPhone_thumb.JPG' | relative_url }}" 
-        data-bp="{{ '/assets/img/gallery/holdingPhone_thumb.JPG' | relative_url }}">
+      <img alt="" 
+        src="{{ '/assets/img/gallery/thumbnails/parkGames_thumb.JPG' | relative_url }}" 
+        data-bp="{{ '/assets/img/gallery/parkGames_thumb.JPG' | relative_url }}">
     </div>
     <div class="gallery__item">
       <!-- <img src="https://source.unsplash.com/user/joannecaselynsuarez/300x300" alt=""> -->
@@ -69,9 +69,9 @@ layout: page
     </div>
     <div class="gallery__item">
       <!-- <img src="https://source.unsplash.com/user/tonill/300x300" alt=""> -->
-      <img alt="hero" 
-        src="{{ '/assets/img/gallery/thumbnails/samuni_thumb.JPG' | relative_url }}" 
-        data-bp="{{ '/assets/img/gallery/samuni_thumb.JPG' | relative_url }}">
+      <img alt="" 
+        src="{{ '/assets/img/gallery/thumbnails/beachtaliati_thumb.JPG' | relative_url }}" 
+        data-bp="{{ '/assets/img/gallery/beachtaliati_thumb.JPG' | relative_url }}">
     </div>
     <div class="gallery__item">
       <!-- <img src="https://source.unsplash.com/user/rawpixel/300x300" alt=""> -->

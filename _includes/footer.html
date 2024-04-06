@@ -20,31 +20,46 @@
   <p></p>
 </footer>
 
+<script
+  src="https://cdn.jsdelivr.net/npm/bigpicture@2.6.2/dist/BigPicture.min.js"
+  crossorigin="anonymous"></script>
 <script>
   (function () {
-    document.addEventListener("DOMContentLoaded", function(event) {
+    document.addEventListener('DOMContentLoaded', function (event) {
       document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()));
 
-      // chips
-      var chipsChoice = Array.from(document.querySelectorAll('.chips__choice > .chip'));
-      chipsChoice.forEach(function(node) {
-        node.on("click", function () {
-          chipsChoice.forEach(function(node) {
-            node.removeClass("chip--active");
-          });
-          node.addClass("chip--active");
+      // gallery
+      callback = function (node) {
+        BigPicture({
+          el: node,
+          gallery: '.gallery [data-photos]', // opens gallery w/ all three images
+          // gallery: document.querySelectorAll('#image_container .example'),
         });
+      };
+      Array.from(document.querySelectorAll('*[data-bp]')).forEach(function (node) {
+        callback(node);
       });
 
-      var chipsFilter = Array.from(document.querySelectorAll('.chips__filter > .chip'));
-      chipsFilter.forEach(function(node) {
-        node.on("click", function () {
-          chipsFilter.forEach(function(node) {
-            node.removeClass("chip--active");
-          });
-          node.addClass("chip--active");
-        });
-      });
+      // chips
+      // var chipsChoice = Array.from(document.querySelectorAll('.chips__choice > .chip'));
+      // chipsChoice.forEach(function(node) {
+      //   node.on("click", function () {
+      //     chipsChoice.forEach(function(node) {
+      //       node.removeClass("chip--active");
+      //     });
+      //     node.addClass("chip--active");
+      //   });
+      // });
+
+      // var chipsFilter = Array.from(document.querySelectorAll('.chips__filter > .chip'));
+      // chipsFilter.forEach(function(node) {
+      //   node.on("click", function () {
+      //     chipsFilter.forEach(function(node) {
+      //       node.removeClass("chip--active");
+      //     });
+      //     node.addClass("chip--active");
+      //   });
+      // });
     });
     // DOMContentLoaded
   })();
