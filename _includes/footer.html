@@ -20,9 +20,9 @@
   <p></p>
 </footer>
 
-<script
+<!-- <script
   src="https://cdn.jsdelivr.net/npm/bigpicture@2.6.2/dist/BigPicture.min.js"
-  crossorigin="anonymous"></script>
+  crossorigin="anonymous"></script> -->
 
 <script>
   (function () {
@@ -30,11 +30,11 @@
       document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()));
 
       // gallery
-      Array.from(document.querySelectorAll('*[data-open^="gallery-list-"]')).forEach(function (node) {
-        node.addEventListener("click", function () {
-          BigPicture({ el: this, gallery: '#'.concat(node.getAttribute('data-open')) });
-        }); 
-      });
+      // Array.from(document.querySelectorAll('*[data-open^="gallery-list-"]')).forEach(function (node) {
+      //   node.addEventListener("click", function () {
+      //     BigPicture({ el: this, gallery: '#'.concat(node.getAttribute('data-open')) });
+      //   });
+      // });
 
       // chips
       // var chipsChoice = Array.from(document.querySelectorAll('.chips__choice > .chip'));
