@@ -37,17 +37,4 @@
 				src="https://unpkg.com/simple-icons@11.11.0/icons/skype.svg" />
 		</a>
 	</li>
-	<li>
-		<a
-			class="sociali"
-			href="https://instagram.com/nkwatidivine"
-			target="_blank"
-			title="instagram"
-			aria-label="instagram">
-			<img
-				height="32"
-				width="32"
-				src="https://unpkg.com/simple-icons@11.11.0/icons/instagram.svg" />
-		</a>
-	</li>
 </ul>

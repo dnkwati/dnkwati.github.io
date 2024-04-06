@@ -22,7 +22,7 @@ layout: page
       <p>
         I'm very practical about solving unexpected issues, taking charge whenever expected while adapting to change and new situations.
         <ul>
-          <li> Take Charge Person  </li>
+          <li> Take Charge Person </li>
           <li> Fast Learner </li>
           <li> Adaptable </li>
         </ul>
@@ -45,7 +45,7 @@ layout: page
     <h1 class="card__title article_title">🧘‍♂️ Hobbies</h1>
     <div class="article__content">
       <p>
-        Listening to music is a fun and rewarding hobby that stimulates my creativity and improves my mood. Among other genres, I have a unique taste for Saxophone Jazz. Some of my interest include:
+        Listening to music is a fun and rewarding hobby that stimulates my creativity and improves my mood. Among other genres, I have a unique taste for Jazz music and I like playing the Saxophone. Some of my interests include:
       </p>
       <ul>
         <li> Meditation </li>
