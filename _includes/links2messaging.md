@@ -2,13 +2,13 @@
 	<li>
 		<a
 			class="sociali"
-			href="mailto:drnkwati+web@gmail.com"
-			title="Send me an email"
-			aria-label="email">
+			href="https://wa.me/79613828062"
+			title="Leave an instant message"
+			aria-label="whatsapp">
 			<img
 				height="32"
 				width="32"
-				src="https://unpkg.com/simple-icons@11.11.0/icons/gmail.svg" />
+				src="https://unpkg.com/simple-icons@11.11.0/icons/whatsapp.svg" />
 		</a>
 	</li>
 	<li>
