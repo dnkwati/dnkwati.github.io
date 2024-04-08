@@ -8,57 +8,47 @@ layout: page
   <h1 class="text-center">Gallary</h1>
   <div class="gallery">
     <div class="gallery__item gallery__item--hor">
-      <!-- <img src="https://source.unsplash.com/random/500x500" alt=""> -->
       <img alt="hero" src="{{ 'assets/img/gallery/thumbnails/holdingPhone_thumb.JPG' | relative_url }}" data-bp="{{ 'assets/img/gallery/holdingPhone.JPG' | relative_url }}">
     </div>
     <div class="gallery__item">
-      <!-- <img src="https://source.unsplash.com/collection/190727/300x300" alt=""> -->
       <img alt="hero" src="{{ 'assets/img/gallery/thumbnails/samuniethni_thumb.JPG' | relative_url }}" data-bp="{{ 'assets/img/gallery/samuniethni.JPG' | relative_url }}">
     </div>
     <div class="gallery__item">
-      <!-- <img src="https://source.unsplash.com/user/erondu/600x600" alt=""> -->
-      <img alt="" src="{{ 'assets/img/gallery/thumbnails/bruskoTeam_thumb.JPG' | relative_url }}" data-bp="{{ 'assets/img/gallery/bruskoTeam.JPG' | relative_url }}">
+      <img alt="hero" src="{{ 'assets/img/gallery/thumbnails/samuni_thumb.jpg' | relative_url }}" data-bp="{{ 'assets/img/gallery/samuni.jpg' | relative_url }}">
     </div>
+    <!-- <div class="gallery__item">
+      <img alt="" src="{{ 'assets/img/gallery/thumbnails/bruskoTeam_thumb.JPG' | relative_url }}" data-bp="{{ 'assets/img/gallery/bruskoTeam.JPG' | relative_url }}">
+    </div> -->
     <div class="gallery__item gallery__item--vert">
-      <!-- <img src="https://source.unsplash.com/user/timmarshall/300x300" alt=""> -->
       <img alt="fun at ashan" src="{{ 'assets/img/gallery/thumbnails/funAtashan_thumb.JPEG' | relative_url }}" data-bp="{{ 'assets/img/gallery/funAtashan.JPEG' | relative_url }}">
     </div>
-    <div class="gallery__item gallery__item--lg">
-      <!-- <img src="https://source.unsplash.com/user/randomlies/300x300" alt=""> -->
+    <!-- <div class="gallery__item gallery__item--lg">
       <img alt="hero" src="{{ 'assets/img/gallery/thumbnails/samcity_thumb.jpeg' | relative_url }}" data-bp="{{ 'assets/img/gallery/samcity.jpeg' | relative_url }}">
-    </div>
+    </div> -->
     <div class="gallery__item">
-      <!-- <img src="https://source.unsplash.com/user/joannecaselynsuarez/300x300" alt=""> -->
       <img alt="hero" src="{{ 'assets/img/gallery/thumbnails/park_thumb.PNG' | relative_url }}" data-bp="{{ 'assets/img/gallery/park.PNG' | relative_url }}">
     </div>
-    <div class="gallery__item gallery__item--hor">
-      <!-- <img src="https://source.unsplash.com/user/liamsimpson/600x600" alt=""> -->
+   <!--  <div class="gallery__item gallery__item--hor">
       <img alt="hero" src="{{ 'assets/img/gallery/thumbnails/petersburg1_thumb.jpeg' | relative_url }}" data-bp="{{ 'assets/img/gallery/petersburg1.jpeg' | relative_url }}">
-    </div>
+    </div> -->
     <div class="gallery__item">
-      <!-- <img src="https://source.unsplash.com/user/stephanvancephoto/300x300" alt=""> -->
       <img alt="hero" src="{{ 'assets/img/gallery/thumbnails/playingSaxophone_thumb.JPG' | relative_url }}" data-bp="{{ 'assets/img/gallery/playingSaxophone.JPG' | relative_url }}">
     </div>
-    <div class="gallery__item">
-      <!-- <img src="https://source.unsplash.com/user/beataratuszniak/300x300" alt=""> -->
+    <!-- <div class="gallery__item">
       <img alt="" src="{{ 'assets/img/gallery/thumbnails/parkGames_thumb.JPG' | relative_url }}" data-bp="{{ 'assets/img/gallery/parkGames.JPG' | relative_url }}">
     </div>
     <div class="gallery__item gallery__item--hor">
-      <!-- <img src="https://source.unsplash.com/random/500x500" alt=""> -->
       <img alt="hero" src="{{ 'assets/img/gallery/thumbnails/samHills_thumb.JPG' | relative_url }}" data-bp="{{ 'assets/img/gallery/samHills.JPG' | relative_url }}">
     </div>
     <div class="gallery__item">
-      <!-- <img src="https://source.unsplash.com/user/tonill/300x300" alt=""> -->
       <img alt="" src="{{ 'assets/img/gallery/thumbnails/beachtaliati_thumb.JPG' | relative_url }}" data-bp="{{ 'assets/img/gallery/beachtaliati.JPG' | relative_url }}">
     </div>
     <div class="gallery__item">
-      <!-- <img src="https://source.unsplash.com/user/rawpixel/300x300" alt=""> -->
       <img alt="hero" src="{{ 'assets/img/gallery/thumbnails/samuni_thumb.jpg' | relative_url }}" data-bp="{{ 'assets/img/gallery/samuni.jpg' | relative_url }}">
     </div>
     <div class="gallery__item">
-      <!-- <img src="https://source.unsplash.com/user/atlasior/300x300" alt=""> -->
       <img alt="hero" src="{{ 'assets/img/gallery/thumbnails/hero_thumb.JPG' | relative_url }}" data-bp="{{ 'assets/img/gallery/hero.JPG' | relative_url }}">
-    </div>
+    </div> -->
   </div>
 </div>
 
