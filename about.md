@@ -54,7 +54,7 @@ layout: page
         <li> Volunteering community service </li>
         <li> Youth empowerment </li>
         <li> Travel </li>
-        <li> Cooking </li>
+        <!-- <li> Cooking </li> -->
       </ul>
     </div>
   </div>
