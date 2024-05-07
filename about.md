@@ -47,7 +47,7 @@ layout: page
     <h1 class="card__title article_title">🧘‍♂️ Hobbies</h1>
     <div class="article__content">
       <p>
-        Listening to music is a fun and rewarding hobby that stimulates my creativity and improves my mood. Among other genres, I have a unique taste for Jazz music and I like playing the Saxophone. Some of my interests include:
+        Listening to music is a fun and rewarding hobby that stimulates my creativity and improves my mood. Among other genres, I have a unique taste for jazz music and I like playing the Saxophone. Some of my interests include:
       </p>
       <ul>
         <li> Meditation </li>

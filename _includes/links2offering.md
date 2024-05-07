@@ -8,7 +8,7 @@
 			<img
 				height="32"
 				width="32"
-				src="https://unpkg.com/simple-icons@11.11.0/icons/gmail.svg" />
+				src="https://unpkg.com/simple-icons/icons/gmail.svg" />
 		</a>
 	</li>
 	<!-- hh.ru -->

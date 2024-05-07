@@ -8,7 +8,7 @@
 			<img
 				height="32"
 				width="32"
-				src="https://unpkg.com/simple-icons@11.11.0/icons/go.svg" />
+				src="https://unpkg.com/simple-icons/icons/go.svg" />
 		</a>
 	</li>
 	<li>
@@ -19,7 +19,7 @@
 			<img
 				height="32"
 				width="32"
-				src="https://unpkg.com/simple-icons@11.11.0/icons/git.svg" />
+				src="https://unpkg.com/simple-icons/icons/git.svg" />
 		</a>
 	</li>
 </ul>

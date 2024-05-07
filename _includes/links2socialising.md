@@ -9,7 +9,7 @@
 			<img
 				height="32"
 				width="32"
-				src="https://unpkg.com/simple-icons@11.11.0/icons/pinterest.svg" />
+				src="https://unpkg.com/simple-icons/icons/pinterest.svg" />
 		</a>
 	</li>
 	<li>
@@ -22,7 +22,7 @@
 			<img
 				height="32"
 				width="32"
-				src="https://unpkg.com/simple-icons@11.11.0/icons/instagram.svg" />
+				src="https://unpkg.com/simple-icons/icons/instagram.svg" />
 		</a>
 	</li>
 	<li>
@@ -35,7 +35,7 @@
 			<img
 				height="32"
 				width="32"
-				src="https://unpkg.com/simple-icons@11.11.0/icons/facebook.svg" />
+				src="https://unpkg.com/simple-icons/icons/facebook.svg" />
 		</a>
 	</li>
 </ul>

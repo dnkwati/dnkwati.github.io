@@ -8,7 +8,7 @@
 			<img
 				height="32"
 				width="32"
-				src="https://unpkg.com/simple-icons@11.11.0/icons/whatsapp.svg" />
+				src="https://unpkg.com/simple-icons/icons/whatsapp.svg" />
 		</a>
 	</li>
 	<li>
@@ -21,7 +21,7 @@
 			<img
 				height="32"
 				width="32"
-				src="https://unpkg.com/simple-icons@11.11.0/icons/telegram.svg" />
+				src="https://unpkg.com/simple-icons/icons/telegram.svg" />
 		</a>
 	</li>
 	<li>
@@ -34,7 +34,7 @@
 			<img
 				height="32"
 				width="32"
-				src="https://unpkg.com/simple-icons@11.11.0/icons/skype.svg" />
+				src="https://unpkg.com/simple-icons/icons/skype.svg" />
 		</a>
 	</li>
 </ul>
